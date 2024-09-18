@@ -12,7 +12,11 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+<<<<<<< HEAD
     background-image: url('./Imagens/volkswagen-2.svg'); /* Adiciona a imagem de fundo */
+=======
+    background-image: url('.Imagens/volkswagen-2.svg'); /* Adiciona a imagem de fundo */
+>>>>>>> ea14d99d50b54238859b554776ffe887fc5047dd
     background-size:contain; /* Ajusta a imagem para cobrir toda a área */
     background-repeat:space;
     background-position: center center; /* Centraliza a imagem */
