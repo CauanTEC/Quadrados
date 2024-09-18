@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-color: #838383; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -12,7 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url('/home/cauantec/Documentos/google/Imagens/volkswagen-2.svg'); /* Adiciona a imagem de fundo */
+    background-image: url('./Imagens/volkswagen-2.svg'); /* Adiciona a imagem de fundo */
     background-size:contain; /* Ajusta a imagem para cobrir toda a área */
     background-repeat:space;
     background-position: center center; /* Centraliza a imagem */
@@ -35,7 +35,7 @@ section {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    margin-bottom: 1rem; /* Espaçamento abaixo de cada seção */
 }
 
 /* Estiliza os inputs dentro das seções */
@@ -162,7 +162,7 @@ footer {
 }
 
 /* Responsividade para celulares */
-@media (max-width: 480px) {
+@media (max-width: 720px) {
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
